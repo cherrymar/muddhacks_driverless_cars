@@ -7,6 +7,11 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		2E38CE782171994E00757608 /* SwiftyCamViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E38CE732171994E00757608 /* SwiftyCamViewController.swift */; };
+		2E38CE792171994E00757608 /* SwiftyCamButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E38CE742171994E00757608 /* SwiftyCamButton.swift */; };
+		2E38CE7A2171994E00757608 /* SwiftyCamViewControllerDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E38CE752171994E00757608 /* SwiftyCamViewControllerDelegate.swift */; };
+		2E38CE7B2171994E00757608 /* Orientation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E38CE762171994E00757608 /* Orientation.swift */; };
+		2E38CE7C2171994E00757608 /* PreviewView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E38CE772171994E00757608 /* PreviewView.swift */; };
 		A1A429FD2168269E0056A5AC /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1A429FC2168269E0056A5AC /* AppDelegate.swift */; };
 		A1A429FF2168269E0056A5AC /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1A429FE2168269E0056A5AC /* ViewController.swift */; };
 		A1A42A022168269E0056A5AC /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A1A42A002168269E0056A5AC /* Main.storyboard */; };
@@ -16,6 +21,11 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		2E38CE732171994E00757608 /* SwiftyCamViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = SwiftyCamViewController.swift; path = "../../../SwiftyCam-Swift4/Source/SwiftyCamViewController.swift"; sourceTree = "<group>"; };
+		2E38CE742171994E00757608 /* SwiftyCamButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = SwiftyCamButton.swift; path = "../../../SwiftyCam-Swift4/Source/SwiftyCamButton.swift"; sourceTree = "<group>"; };
+		2E38CE752171994E00757608 /* SwiftyCamViewControllerDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = SwiftyCamViewControllerDelegate.swift; path = "../../../SwiftyCam-Swift4/Source/SwiftyCamViewControllerDelegate.swift"; sourceTree = "<group>"; };
+		2E38CE762171994E00757608 /* Orientation.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Orientation.swift; path = "../../../SwiftyCam-Swift4/Source/Orientation.swift"; sourceTree = "<group>"; };
+		2E38CE772171994E00757608 /* PreviewView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = PreviewView.swift; path = "../../../SwiftyCam-Swift4/Source/PreviewView.swift"; sourceTree = "<group>"; };
 		A1A429F92168269E0056A5AC /* DriverlessCar.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DriverlessCar.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A1A429FC2168269E0056A5AC /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		A1A429FE2168269E0056A5AC /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -59,6 +69,11 @@
 				A1A429FC2168269E0056A5AC /* AppDelegate.swift */,
 				A1A429FE2168269E0056A5AC /* ViewController.swift */,
 				A1A42A002168269E0056A5AC /* Main.storyboard */,
+				2E38CE762171994E00757608 /* Orientation.swift */,
+				2E38CE772171994E00757608 /* PreviewView.swift */,
+				2E38CE742171994E00757608 /* SwiftyCamButton.swift */,
+				2E38CE732171994E00757608 /* SwiftyCamViewController.swift */,
+				2E38CE752171994E00757608 /* SwiftyCamViewControllerDelegate.swift */,
 				A1A42A062168269E0056A5AC /* Assets.xcassets */,
 				A1A42A082168269E0056A5AC /* LaunchScreen.storyboard */,
 				A1A42A0B2168269E0056A5AC /* Info.plist */,
@@ -94,7 +109,7 @@
 			isa = PBXProject;
 			attributes = {
 				LastSwiftUpdateCheck = 0920;
-				LastUpgradeCheck = 0920;
+				LastUpgradeCheck = 0940;
 				ORGANIZATIONNAME = "Emily Chin";
 				TargetAttributes = {
 					A1A429F82168269E0056A5AC = {
@@ -140,7 +155,12 @@
 			buildActionMask = 2147483647;
 			files = (
 				A1A42A052168269E0056A5AC /* DriverlessCar.xcdatamodeld in Sources */,
+				2E38CE7C2171994E00757608 /* PreviewView.swift in Sources */,
+				2E38CE7A2171994E00757608 /* SwiftyCamViewControllerDelegate.swift in Sources */,
 				A1A429FF2168269E0056A5AC /* ViewController.swift in Sources */,
+				2E38CE7B2171994E00757608 /* Orientation.swift in Sources */,
+				2E38CE782171994E00757608 /* SwiftyCamViewController.swift in Sources */,
+				2E38CE792171994E00757608 /* SwiftyCamButton.swift in Sources */,
 				A1A429FD2168269E0056A5AC /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -181,6 +201,7 @@
 				CLANG_WARN_BOOL_CONVERSION = YES;
 				CLANG_WARN_COMMA = YES;
 				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
 				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
 				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
 				CLANG_WARN_EMPTY_BODY = YES;
@@ -188,6 +209,7 @@
 				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
 				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
 				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
 				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
@@ -238,6 +260,7 @@
 				CLANG_WARN_BOOL_CONVERSION = YES;
 				CLANG_WARN_COMMA = YES;
 				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
 				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
 				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
 				CLANG_WARN_EMPTY_BODY = YES;
@@ -245,6 +268,7 @@
 				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
 				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
 				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
 				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
